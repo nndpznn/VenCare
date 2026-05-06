@@ -4,7 +4,6 @@ import Splash from './pages/Splash'
 import Product from './pages/Product.tsx'
 import Pricing from './pages/Pricing.tsx'
 import Contact from './pages/Contact.tsx'
-import Demo from './pages/Demo.tsx'
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/demo" element={<Demo />} />
         </Routes>
       </main>
     </div>

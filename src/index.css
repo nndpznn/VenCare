@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "@heroui/styles";
 
 @theme {
   --color-brand: #f75138;
@@ -18,4 +18,29 @@ body,
 
 body {
   margin: 0;
+}
+
+/* Custom pointer: orange arrow oriented like the default cursor (tip top-left) */
+html {
+  cursor:
+    url('/cursor-orange.svg') 8 8,
+    auto;
+}
+
+/* HeroUI / UA styles often set cursor on controls — keep the same pointer */
+a,
+button,
+[role='button'],
+label[for],
+summary {
+  cursor:
+    url('/cursor-orange.svg') 8 8,
+    auto;
+}
+
+/* Let users see the I-beam when editing text */
+input:not([type='checkbox']):not([type='radio']),
+textarea,
+[contenteditable='true'] {
+  cursor: text;
 }

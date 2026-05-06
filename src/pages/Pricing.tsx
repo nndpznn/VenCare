@@ -21,7 +21,7 @@ function Pricing() {
             </li>
             <li>“Allergen Prepared” certification</li>
           </ul>
-          <p className="mt-10 text-base md:text-lg text-ink">
+          <p className="mt-10 text-base md:text-2xl text-ink">
             Starting at <strong className="font-semibold">$1200/yr</strong>
           </p>
         </article>
@@ -41,13 +41,21 @@ function Pricing() {
               “Allergen Prepared” certification and quarterly compliance checks
             </li>
           </ul>
-          <p className="mt-10 text-base md:text-lg text-ink">
+          <p className="mt-10 text-base md:text-2xl text-ink">
             Starting at <strong className="font-semibold">$2200/yr</strong>
           </p>
         </article>
 
         <article className="flex min-h-[26rem] md:min-h-[32rem] flex-col rounded-3xl bg-neutral-200 p-5">
-          <h2 className="text-2xl md:text-3xl font-bold text-brand">Arena</h2>
+          <h2 className="flex items-center gap-2 text-2xl md:text-3xl font-bold text-brand">
+            <img
+              src="/favicon.svg"
+              alt=""
+              className="h-[1em] w-[1em] shrink-0 object-contain"
+              aria-hidden="true"
+            />
+            Arena
+          </h2>
           <p className="mt-3 text-base md:text-lg leading-snug text-neutral-700">
             Sports stadiums, franchises, enterprise-scale operations
           </p>
@@ -57,7 +65,7 @@ function Pricing() {
             <li>Annual refresh and certification</li>
             <li>24/7 support and expedited refills</li>
           </ul>
-          <p className="mt-10 text-right text-base md:text-lg font-medium text-ink">
+          <p className="mt-10 text-right text-base md:text-2xl font-medium text-ink">
             Inquire for Pricing
           </p>
         </article>
