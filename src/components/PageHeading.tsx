@@ -4,7 +4,7 @@
  */
 export function PageHeading({ children }: { children: React.ReactNode }) {
   return (
-    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-ink mb-10">
+    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-ink mb-6 shrink-0">
       {children}
     </h1>
   )

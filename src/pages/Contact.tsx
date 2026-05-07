@@ -33,7 +33,7 @@ function Contact() {
 
   if (state.succeeded) {
     return (
-      <section className={`w-full mx-auto ${pagePaddingX} py-16 md:py-20`}>
+      <section className={`w-full mx-auto ${pagePaddingX} pt-6 pb-10 md:pt-8 md:pb-12`}>
         <PageHeading>Contact</PageHeading>
         <p className="text-xl md:text-2xl text-ink">
           Thanks — we&apos;ll get back to you soon.
@@ -43,15 +43,15 @@ function Contact() {
   }
 
   return (
-    <section className={`w-full mx-auto ${pagePaddingX} py-16 md:py-20`}>
+    <section className={`w-full mx-auto ${pagePaddingX} pt-6 pb-10 md:pt-8 md:pb-12`}>
       <PageHeading>Contact</PageHeading>
-      <p className="text-lg text-neutral-700 mb-10 max-w-xl">
+      <p className="text-lg text-neutral-700 mb-6 max-w-xl">
         Send us a message and we&apos;ll reply as soon as we can.
       </p>
 
       <form
         onSubmit={onSubmit}
-        className="flex w-full max-w-full flex-col gap-8 md:w-[30%]"
+        className="flex w-full max-w-full flex-col gap-5 md:w-[30%]"
       >
         <input type="hidden" name="tier" value={tier} readOnly />
 
@@ -140,8 +140,8 @@ function Contact() {
             id="message"
             name="message"
             required
-            rows={6}
-            className={`${inputClass} resize-y min-h-40`}
+            rows={4}
+            className={`${inputClass} resize-y min-h-32`}
             placeholder="How can we help?"
           />
           <ValidationError
