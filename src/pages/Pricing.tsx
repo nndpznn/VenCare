@@ -44,7 +44,7 @@ function Pricing() {
             </li>
           </ul>
           <p className="mt-auto pt-6 text-base md:text-2xl text-ink">
-            Starting at <strong className="font-semibold">$2200/yr</strong>
+            Starting at <strong className="font-semibold">$3000/yr</strong>
           </p>
         </article>
 
@@ -67,8 +67,11 @@ function Pricing() {
             <li>Annual refresh and certification</li>
             <li>24/7 support and expedited refills</li>
           </ul>
-          <p className="mt-auto pt-6 text-right text-base md:text-2xl font-medium text-ink">
-            Inquire for Pricing
+          <p className="mt-auto pt-6 text-base md:text-lg text-ink italic">
+            Inquire for custom pricing
+          </p>
+          <p className="mt-auto text-base md:text-2xl text-ink">
+            Starting at <strong className="font-semibold">$5000/yr</strong>
           </p>
         </article>
       </div>
