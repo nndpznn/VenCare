@@ -71,6 +71,9 @@ function Pricing() {
             Inquire for Pricing
           </p>
         </article>
+        <div className='p-4 bg-neutral-200 rounded-xl'>
+          Note: Each plan requires a startup fee of $1000 including initial team onboarding and kit deployment. 
+        </div>
       </div>
 
       <div className="mt-5 shrink-0 flex justify-end md:mt-4">
