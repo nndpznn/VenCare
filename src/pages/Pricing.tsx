@@ -24,7 +24,7 @@ function Pricing() {
             <li>“Allergen Prepared” certification</li>
           </ul>
           <p className="mt-auto pt-6 text-base md:text-2xl text-ink">
-            Starting at <strong className="font-semibold">$1200/yr</strong>
+            Starting at <strong className="font-semibold">$1000/yr</strong>
           </p>
         </article>
 
